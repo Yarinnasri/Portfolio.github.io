@@ -308,12 +308,18 @@ form button {
   border: none;
 }
 
+.download a:hover,
+.card a:hover,
+button:hover {
+  background-color: #51bec8;
+}
+
 button:hover {
   cursor: pointer;
 }
 
-button:active {
-  background-color: #51bec8;
+button:active,
+a:active {
   transform: scale(0.9);
 }
 
