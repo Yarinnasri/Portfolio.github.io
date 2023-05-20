@@ -1,0 +1,485 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Assistant", sans-serif;
+  direction: rtl;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px 1px #aaaaaa;
+  top: 0;
+  font-weight: 600;
+  white-space: nowrap;
+  gap: 10%;
+}
+
+.navbarChild {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbarImg {
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.navbarName {
+  font-size: 1.2rem;
+  margin: 0px 20px;
+  font-family: "Satisfy";
+}
+
+.navbarList {
+  display: flex;
+  list-style: none;
+  height: 100%;
+}
+
+.navbarItem {
+  margin: 0 10px;
+  height: 100%;
+}
+
+.navbarLink {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #333;
+  flex-shrink: 0;
+}
+
+.navbarLink:hover {
+  color: rgb(0, 185, 185);
+}
+
+.opening {
+  background-image: url(images/bg.jpeg);
+  object-fit: contain;
+  height: 21rem;
+  padding: 0 16px;
+
+  background-color: #b3f3f7;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.opening p {
+  max-width: 500px;
+  font-weight: 600;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.underLine {
+  border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.aboutMeContainer {
+  display: flex;
+  padding: 16px;
+  margin: 60px 0;
+  gap: 16px;
+}
+
+.imgControl {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.aboutMe img {
+  width: 250px;
+}
+
+h2,
+p {
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+.aboutMe p {
+  max-width: 750px;
+}
+
+#pdf-logo {
+  width: 120px;
+  rotate: calc(340deg);
+  margin-top: 16px;
+}
+
+.downloadContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 32px;
+  background-color: rgb(46, 46, 46);
+  gap: 24px;
+}
+
+.download {
+  color: white;
+  max-width: 500px;
+  margin-left: 10%;
+  font-weight: 600;
+}
+
+.download a,
+.card a {
+  background-color: #1addef;
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+
+.download a img {
+  display: inline-block;
+  width: 20px;
+  align-self: center;
+  vertical-align: middle;
+  transform: scaleX(-1);
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin: 60px 0;
+}
+
+.cardsContainer h2 {
+  text-align: center;
+}
+
+.allCards {
+  max-width: 1000px;
+  margin: auto;
+  gap: 24px;
+}
+
+.card {
+  background-color: rgb(246, 242, 242);
+  border-radius: 10px;
+  max-width: 300px;
+  border: rgb(226, 224, 224) solid 1px;
+  box-shadow: 5px 5px 17px 1px #d1cece;
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 24px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 300px;
+  height: 170px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h3 {
+  font-family: "Satisfy";
+}
+
+.card p {
+  max-width: 80%;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.card a {
+  border: 2px solid #2e2e2e;
+  width: 140px;
+}
+
+.formContainerBack {
+  background-image: url(images/bg.jpeg);
+  object-fit: contain;
+  background-color: #b3f3f7;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+}
+
+.formContainerFront {
+  width: 100%;
+  max-width: 1000px;
+  margin: 50px 0 50px 50px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form div {
+  margin-bottom: 16px;
+}
+
+.formContainerFront p,
+label,
+input,
+textarea {
+  display: block;
+  width: 400px;
+}
+
+form label {
+  font-weight: 600;
+}
+
+form input,
+textarea {
+  border: none;
+  border-bottom: #aaaaaa solid 2px;
+  padding: 8px 8px;
+  resize: none;
+}
+
+form textarea {
+  height: 6.25rem;
+}
+
+form button {
+  background-color: #1addef;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 6px 16px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #51bec8;
+  transform: scale(0.9);
+}
+
+.socialBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 24px 32px;
+  background-color: rgb(46, 46, 46);
+  gap: 5%;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.icon img {
+  height: 32px;
+}
+
+.rights {
+  background-color: rgb(30, 29, 29);
+  color: white;
+  padding: 1px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .underLine img {
+    height: 9%;
+    width: 9%;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  .aboutMeContainer {
+    margin: 30px 0;
+  }
+
+  .aboutMe {
+    text-align: center;
+  }
+
+  .cardsContainer {
+    padding: 0 16px;
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width: 797px) {
+  .download {
+    margin: 0;
+  }
+
+  .socialBar {
+    gap: 3%;
+  }
+}
+
+@media screen and (max-width: 723px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+  }
+  .underLine :first-child {
+    margin-right: 11%;
+  }
+
+  .underLine :nth-child(6) {
+    margin-left: 11%;
+  }
+
+  .underLine img {
+    width: 13%;
+    height: 13%;
+  }
+
+  .download {
+    text-align: center;
+  }
+
+  .formContainerFront {
+    align-items: center;
+    margin: 50px 0;
+  }
+
+  .formContainerFront p,
+  form,
+  input,
+  textarea {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .socialBar a {
+    width: 155px;
+  }
+
+  .socialBar span {
+    width: 85px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+  .socialBar {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .socialBar a {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbarLink {
+    padding: 0;
+  }
+
+  .navbarName {
+    margin: 0 8px 0 2px;
+  }
+
+  .navbarImg {
+    margin: 0 4px;
+  }
+
+  .socialBar a {
+    width: 120px;
+  }
+
+  .socialBar {
+    padding: 24px 16px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .navbarItem {
+    margin: 0 5px;
+    font-size: 0.9rem;
+  }
+
+  .navbarName {
+    font-size: 1.05rem;
+  }
+
+  .cardsContainer {
+    padding: 0;
+  }
+
+  .socialBar {
+    padding: 24px 16px;
+  }
+
+  .rights {
+    display: flex;
+    flex-direction: column;
+  }
+}

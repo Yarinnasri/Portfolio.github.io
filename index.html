@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio" />
+    <link rel="icon" href="./images/letter-P-icon.png" type="image/icon type" />
+    <title>Portfolio</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- חלק עליון דביק של שורת ניווט -->
+      <nav class="navbar">
+        <div class="navbarChild">
+          <ul class="navbarList">
+            <li class="navbarItem">
+              <a href="#main" class="navbarLink">ראשי</a>
+            </li>
+            <li class="navbarItem">
+              <a href="#about" class="navbarLink">אודות</a>
+            </li>
+            <li class="navbarItem">
+              <a href="#gallery" class="navbarLink">גלריה</a>
+            </li>
+            <li class="navbarItem">
+              <a href="#contact" class="navbarLink">צור קשר</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbarChild">
+          <span class="navbarName">Yarin Nasri</span>
+          <img class="navbarImg" src="./images/MyPhoto.jpg" alt="My photo" />
+        </div>
+      </nav>
+
+      <!-- אזור עליון של העמוד, הפתיחה -->
+    </header>
+    <div id="main" class="opening">
+      <h1>תיק עבודות אישי</h1>
+      <p>
+        היי, ברוך הבא לתיק העבודות שלי. כאן תוכלו לקבל מידע אודותיי, לראות
+        עבודות שלי וגם תוכלו ליצור איתי קשר.
+      </p>
+    </div>
+
+    <!-- שורת טכנולוגיות -->
+    <div class="flexCenter underLine">
+      <img src="./images/technologies/node.png" alt="Node icon" />
+      <img src="./images/technologies/react.png" alt="React icon" />
+      <img src="./images/technologies/api.png" alt="Api icon" />
+      <img src="./images/technologies/typescript.png" alt="Typescript icon" />
+      <img src="./images/technologies/es6.png" alt="Es6 icon" />
+      <img src="./images/technologies/oop.png" alt="Oop icon" />
+      <img src="./images/technologies/javascript.png" alt="Javascript icon" />
+      <img src="./images/technologies/scss.png" alt="Scss icon" />
+      <img src="./images/technologies/bootstrap.png" alt="Bootstrap icon" />
+      <img src="./images/technologies/css.png" alt="Css icon" />
+      <img src="./images/technologies/html.png" alt="Html icon" />
+    </div>
+
+    <!-- אזור על עצמי -->
+    <div id="about" class="aboutMeContainer flexCenter">
+      <div class="aboutMe imgControl">
+        <img src="./images/profile.jpg" alt="My photo" />
+      </div>
+      <div class="aboutMe">
+        <h2>קצת עליי</h2>
+        <p>היי, קוראים לי ירין, בן 22 וחייל משוחרר.</p>
+        <p>
+          זהו תיק העבודות הראשון שלי, שבניתי במהלך הלמידה ב HackerU בקורס Full
+          Stack Web Development. במהלך הקורס למדנו להכיר ולעבוד ב Bootstrap,
+          Css, Html ו- Sass. חוץ מהנושאים הללו, יש עוד נושאים נוספים שנלמד
+          וניבחן עליהם.
+        </p>
+        <p>
+          חוץ מהקורס והעבודה הזאת, אני בעל 12 שנות לימוד, מבין ב Java שהרחבתי
+          במהלך הלמידה בתיכון. אני למדתי ועדיין ממשיך ללמוד על הנושאים בתכנות
+          כדי לעסוק בהם בהמשך.
+        </p>
+        <p>
+          לפרטים נוספים ומורחבים יותר עליי, ניתן להוריד את קובץ קורות החיים שלי
+          כאן למטה.
+        </p>
+      </div>
+    </div>
+
+    <!-- אזור הורדת קורות חיים -->
+    <div class="downloadContainer">
+      <div>
+        <img id="pdf-logo" src="./images/pdf-logo.png" alt="PDF-logo" />
+      </div>
+
+      <div class="download">
+        <h2>להורדת קורות חיים</h2>
+        <p>כאן תוכלו להוריד את קובץ קורות החיים שלי.</p>
+
+        <a href="./Resume-Yarin Nasri.pdf" download target="_blank">
+          להורדת מסמך PDF
+          <img
+            class="imgControl"
+            src="./images/cloud.png"
+            alt="download-logo"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- אזור עבודות -->
+    <div id="gallery" class="cardsContainer">
+      <h2>עבודות נבחרות</h2>
+      <div class="allCards flexCenter">
+        <div class="card">
+          <img
+            src="./images/landing pages/landingPage1.png"
+            alt="third project photo"
+          />
+          <h3>Here & Now</h3>
+          <p>
+            זהו דף נחיתה שבניתי בעזרת Html & Bootstrap. בנוסף, יצא לנו להכיר מה
+            זה gradiant.
+          </p>
+          <div class="card-buttons">
+            <a
+              href="../Landing Page 1 - Here and Now/index.html"
+              target="_blank"
+              >לצפייה בפרוייקט</a
+            >
+            <a
+              href="../Landing Page 1 - Here and Now/style.css"
+              target="_blank"
+              download
+              >להורדת הפרוייקט</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/landing pages/landingPage2.png"
+            alt="third project photo"
+          />
+          <h3>Coffee Shop</h3>
+          <p>
+            זהו דף נחיתה שבניתי בעזרת Html & Css. זה היה הפרוייקט הראשון שעבדנו
+            עליו.
+          </p>
+          <div class="card-buttons">
+            <a href="../Landing Page 2 - Coffee/index.html" target="_blank"
+              >לצפייה בפרוייקט</a
+            >
+            <a>להורדת הפרוייקט</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/landing pages/landingPage3.png"
+            alt="third project photo"
+          />
+          <h3>Find Vacation</h3>
+          <p>
+            זהו דף נחיתה שבניתי בעזרת Html & Sass. יצא לנו לעבוד כאן עם רקע
+            למסך.
+          </p>
+          <div class="card-buttons">
+            <a href="../Landing Page 3 - Vacation/index.html" target="_blank"
+              >לצפייה בפרוייקט</a
+            >
+            <a>להורדת הפרוייקט</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/landing pages/landingPage4.png"
+            alt="third project photo"
+          />
+          <h3>Free Chaser</h3>
+          <p>
+            זהו דף נחיתה שבניתי בעזרת Html & Css. הסטייל דומה מאוד לדף של חנות
+            הקפה, אבל עם שינויים קלים.
+          </p>
+          <div class="card-buttons">
+            <a href="../Landing Page 4 - Chaser/index.html" target="_blank"
+              >לצפייה בפרוייקט</a
+            >
+            <a>להורדת הפרוייקט</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/landing pages/landingPage5.png"
+            alt="third project photo"
+          />
+          <h3>Move Forward 1</h3>
+          <p>
+            זהו דף נחיתה שבניתי בעזרת Html & Sass. זה היה הפרוייקט האחרון שעבדנו
+            עליו.
+          </p>
+          <div class="card-buttons">
+            <a
+              href="../Landing Page 5 - Move Forward (Pink)/index.html"
+              target="_blank"
+              >לצפייה בפרוייקט</a
+            >
+            <a>להורדת הפרוייקט</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./images/landing pages/landingPage6.png"
+            alt="third project photo"
+          />
+          <h3>Move Forward 2</h3>
+          <p>
+            זהו דף נחיתה שבניתי בעזרת Html & Css. עבדנו פה עם תמונת רקע שנמצאת
+            רק על חלק מהמסך.
+          </p>
+          <div class="card-buttons">
+            <a
+              href="../Landing Page 6 - Move Forward (Blue)/index.html"
+              target="_blank"
+              >לצפייה בפרוייקט</a
+            >
+            <a>להורדת הפרוייקט</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- אזור יצירת קשר -->
+    <div id="contact" class="formContainerBack">
+      <div class="formContainerFront">
+        <h2>צרו קשר</h2>
+        <p>בטופס יצירת קשר זה תוכלו ליצור איתי קשר דרך המייל.</p>
+        <form
+          action="mailto:yarinnasri@gmail.com?subject=טופס יצירת קשר"
+          method="post"
+        >
+          <div>
+            <label for="Name">שם</label>
+            <input
+              type="text"
+              id="Name"
+              name="user-name"
+              placeholder=" שם "
+              required
+            />
+          </div>
+          <div>
+            <label for="Email">אימייל</label>
+            <input
+              type="Email"
+              id="name"
+              name="user-email"
+              placeholder=" אימייל "
+              required
+            />
+          </div>
+          <div>
+            <label for="Phone">טלפון</label>
+            <input
+              type="tel"
+              id="Phone"
+              name="user-phone"
+              placeholder=" שם "
+              required
+            />
+          </div>
+          <div>
+            <label for="message">הודעה</label>
+            <textarea
+              id="message"
+              name="message"
+              minlength="10"
+              placeholder="הודעה"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">שליחה</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- רשתות חברתיות -->
+    <div class="socialBar">
+      <a class="icon" target="_blank" href="https://www.facebook.com/">
+        <img src="./images/social icons/Facebook.png" alt="facebook logo" />
+        <span>Yarinnasri#</span>
+      </a>
+      <a class="icon" target="_blank" href="https://www.linkedin.com/">
+        <img src="./images/social icons/LinkedIn.png" alt="LinkedIn logo" />
+        <span>Yarinnasri#</span>
+      </a>
+      <a href="tel:+972523866675" target="_blank" class="icon">
+        <img src="./images/social icons/Phone number.png" alt="Phone logo" />
+        <span>052-3866675</span>
+      </a>
+      <a class="icon" target="_blank" href="https://wa.me/972523866675">
+        <img src="./images/social icons/Chat.png" alt="Chat logo" />
+        <span>052-3866675</span>
+      </a>
+      <a class="icon" target="_blank" href="mailto:yarinnasri@gmail.com">
+        <img src="./images/social icons/Email.png" alt="Email logo" />
+        <span>yarinnasri@gmail.com</span>
+      </a>
+      <a
+        class="icon"
+        target="_blank"
+        href="https://www.google.com/maps?q=google+maps+petah+tikva&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiRqOvRiev-AhXD-6QKHYP4AYwQ_AUoAXoECAEQAw"
+      >
+        <img src="./images/social icons/Location.png" alt="Location logo" />
+        <span>פתח תקווה</span>
+      </a>
+    </div>
+
+    <!-- זכויות -->
+    <div class="rights">
+      <span>כל הזכויות שמורות לירין נסרי</span>
+      <span>Yarin Nasri 2023</span>
+    </div>
+  </body>
+</html>
