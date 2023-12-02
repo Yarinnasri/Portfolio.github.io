@@ -1,0 +1,193 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Assistant", sans-serif;
+  direction: rtl;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px 1px #aaaaaa;
+  top: 0;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:active {
+  color: black;
+}
+
+.navbarChild {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbarImg {
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.navbarName {
+  font-size: 1.2rem;
+  margin: 0px 20px;
+  font-family: "Satisfy";
+}
+
+.opening {
+  background-image: url(../images/bg.jpeg);
+  object-fit: contain;
+  height: 21rem;
+  padding: 0 16px;
+
+  background-color: #b3f3f7;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 24px;
+}
+
+.opening p {
+  max-width: 500px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.underLine {
+  border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.imgControl {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin: 40px 40px;
+}
+
+.imgControl img {
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0px gray;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.card-buttons a {
+  background-color: #1addef;
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 30px;
+  border: 2px solid #2e2e2e;
+  width: 140px;
+}
+
+.card-buttons a:hover {
+  background-color: #51bec8;
+  cursor: pointer;
+}
+
+.card-buttons a:active {
+  transform: scale(0.9);
+}
+
+.rights {
+  background-color: rgb(30, 29, 29);
+  color: white;
+  padding: 1px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .underLine img {
+    height: 9%;
+    width: 9%;
+  }
+}
+
+@media screen and (max-width: 723px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .underLine img {
+    width: 13%;
+    height: 13%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbarName {
+    margin: 0 8px 0 2px;
+  }
+
+  .navbarImg {
+    margin: 0 4px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .navbarName {
+    font-size: 1.05rem;
+  }
+
+  .rights {
+    display: flex;
+    flex-direction: column;
+  }
+}

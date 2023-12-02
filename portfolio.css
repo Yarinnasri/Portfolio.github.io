@@ -38,6 +38,15 @@ header {
   height: 100%;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: rgb(0, 185, 185);
+}
+
 .navbarImg {
   margin-left: 20px;
   height: 40px;
@@ -171,7 +180,7 @@ h2 {
 }
 
 .download a,
-.card a {
+#page-center .card a {
   background-color: #1addef;
   text-decoration: none;
   color: rgb(46, 46, 46);
@@ -189,7 +198,7 @@ h2 {
   transform: scaleX(-1);
 }
 
-.cardsContainer {
+#page-center.cardsContainer {
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -200,13 +209,13 @@ h2 {
   text-align: center;
 }
 
-.allCards {
+#page-center .allCards {
   max-width: 1000px;
   margin: auto;
   gap: 24px;
 }
 
-.card {
+#page-center .card {
   background-color: rgb(246, 242, 242);
   border-radius: 10px;
   max-width: 300px;
@@ -224,14 +233,14 @@ h2 {
   overflow: hidden;
 }
 
-.card img {
+#page-center .card img {
   width: 300px;
   height: 170px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.card h3 {
+#page-center .card h3 {
   font-family: "Satisfy";
 }
 
@@ -239,15 +248,71 @@ h2 {
   max-width: 80%;
 }
 
-.card-buttons {
+#page-center .card-buttons {
   display: flex;
   gap: 5px;
 }
 
-.card a {
+#page-center .card a {
   border: 2px solid #2e2e2e;
   width: 140px;
 }
+
+/* -------------------------------------------- */
+
+#play-center.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 76px 16px;
+}
+
+#play-center {
+  background-color: rgb(239 237 224);
+}
+
+#play-center .allCards {
+  max-width: 800px;
+  margin: auto;
+  gap: 24px;
+}
+
+#play-center .card {
+  max-width: 300px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 24px;
+  overflow: hidden;
+}
+
+#play-center .card div {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  background-color: rgb(197 231 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#play-center .card div:hover {
+  background-color: rgb(154, 205, 210);
+}
+
+#play-center .card img {
+  width: 150px;
+  height: 150px;
+}
+
+#play-center .card h3 {
+  font-family: cursive;
+}
+
+/* -------------------------- */
 
 .formContainerBack {
   background-image: url(images/bg.jpeg);
@@ -309,7 +374,7 @@ form button {
 }
 
 .download a:hover,
-.card a:hover,
+#page-center .card a:hover,
 button:hover {
   background-color: #51bec8;
 }
@@ -371,7 +436,7 @@ a:active {
     text-align: center;
   }
 
-  .cardsContainer {
+  #page-center .cardsContainer {
     padding: 0 16px;
     margin: 30px 0;
   }
@@ -476,7 +541,7 @@ a:active {
     font-size: 1.05rem;
   }
 
-  .cardsContainer {
+  #page-center.cardsContainer {
     padding: 0;
   }
 
