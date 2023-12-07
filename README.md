@@ -6,7 +6,8 @@ You can find here information about me, projects I have done, and ways to contac
 
 The portfolio was built with Html and Css.
 
-It contains 6 landing pages made with Html, Css, Bootstrap, and Sass.
+It contains 6 landing pages made with Html, Css, Bootstrap, and Sass,
+6 more app pages made with Html, Css and Js.
 
 All of them are fully responsive, so you can use them on mobile such as on desktop.
 
@@ -36,3 +37,21 @@ Yarin Nasri.
 
 7. Move-Forward-2:
    [Live](https://yarinnasri.github.io/Landing-Page-6-Move-Forward-2/) , [Github](https://github.com/Yarinnasri/Landing-Page-6-Move-Forward-2) , [Download](https://github.com/Yarinnasri/Landing-Page-6-Move-Forward-2/archive/main.zip)
+
+8. Blackjack Game:
+   [Live](https://yarinnasri.github.io/Blackjack-Game/) , [Github](https://github.com/Yarinnasri/Blackjack-Game) , [Download](https://github.com/Yarinnasri/Blackjack-Game/archive/refs/heads/main.zip)
+
+9. Memory Cards:
+   [Live](https://yarinnasri.github.io/Memory-Cards-Game/) , [Github](https://github.com/Yarinnasri/Memory-Cards-Game) , [Download](https://github.com/Yarinnasri/Memory-Cards-Game/archive/refs/heads/main.zip)
+
+10. Tic Tac Toe:
+    [Live](https://yarinnasri.github.io/XO-Game/) , [Github](https://github.com/Yarinnasri/XO-Game) , [Download](https://github.com/Yarinnasri/XO-Game/archive/refs/heads/main.zip)
+
+11. Page Builder:
+    [Live](https://yarinnasri.github.io/Page-Builder/) , [Github](https://github.com/Yarinnasri/Page-Builder) , [Download](https://github.com/Yarinnasri/Page-Builder/archive/refs/heads/main.zip)
+
+12. Payment Page:
+    [Live](https://yarinnasri.github.io/Payment-Page/) , [Github](https://github.com/Yarinnasri/Payment-Page) , [Download](https://github.com/Yarinnasri/Payment-Page/archive/refs/heads/main.zip)
+
+13. Shop Page:
+    [Live](https://yarinnasri.github.io/Shop-Page/) , [Github](https://github.com/Yarinnasri/Shop-Page) , [Download](https://github.com/Yarinnasri/Shop-Page/archive/refs/heads/main.zip)
